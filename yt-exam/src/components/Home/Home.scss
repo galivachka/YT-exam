@@ -1,0 +1,32 @@
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+.home:hover ::-webkit-scrollbar-thumb {
+  background-color: #fff;
+}
+
+.home {
+  width: 80%;
+  height: 100%;
+  
+
+  &__box {
+    overflow: auto;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .home {
+    position: relative !important;
+    width: 100%;
+    padding: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .home {
+    top: 30px !important;
+  }
+}

@@ -1,0 +1,317 @@
+.card {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 30px;
+  align-items: unset;
+
+  &__box {
+    width: 250px;
+    border: 1px solid #000;
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+
+
+
+  &__img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+  }
+
+  &__title {
+    width: 320px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #19202c;
+
+    &-box {
+      display: flex;
+      gap: 30px;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-top: 10px;
+      padding-bottom: 5px;
+    }
+  }
+
+  &__channel-title {
+    font-size: 13px;
+    line-height: 16px;
+
+    color: #c2c2c2;
+  }
+
+  &__video-time {
+    font-size: 13px;
+    line-height: 16px;
+
+    color: #c2c2c2;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .card {
+    padding: 0 !important;
+    padding-top: 32px !important;
+
+    &__link {
+      width: 310px;
+      display: block;
+    }
+
+    &__box {
+      width: 310px;
+    }
+
+    &__img {
+      width: 310px;
+    }
+
+    &__title {
+      width: 300px;
+      padding: 0 5px;
+    }
+
+    &__title-box {
+      width: 290px;
+      gap: 25px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1310px) {
+  .card {
+    &__link {
+      width: 260px;
+      display: block;
+    }
+
+    &__box {
+      width: 260px;
+    }
+
+    &__img {
+      width: 260px;
+    }
+
+    &__title {
+      width: 250px;
+    }
+
+    &__title-box {
+      width: 240px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1115px) {
+  .card {
+    grid-template-columns: auto auto;
+    align-items: center;
+
+    &__link {
+      width: 350px;
+      display: block;
+      margin: 0 auto;
+    }
+
+    &__box {
+      width: 350px;
+    }
+
+    &__img {
+      width: 350px;
+    }
+
+    &__title {
+      width: 340px;
+    }
+
+    &__title-box {
+      width: 330px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .card {
+    &__link {
+      width: 400px;
+    }
+
+    &__box {
+      width: 400px;
+    }
+
+    &__img {
+      width: 400px;
+    }
+
+    &__title {
+      width: 390px;
+    }
+
+    &__title-box {
+      width: 380px;
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .card {
+    &__link {
+      width: 350px;
+    }
+
+    &__box {
+      width: 350px;
+    }
+
+    &__img {
+      width: 350px;
+    }
+
+    &__title {
+      width: 340px;
+    }
+
+    &__title-box {
+      width: 330px;
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .card {
+    &__link {
+      width: 300px;
+    }
+
+    &__box {
+      width: 300px;
+    }
+
+    &__img {
+      width: 300px;
+    }
+
+    &__title {
+      width: 290px;
+    }
+
+    &__title-box {
+      width: 280px;
+    }
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .card {
+    &__link {
+      width: 250px;
+    }
+
+    &__box {
+      width: 250px;
+    }
+
+    &__img {
+      width: 250px;
+    }
+
+    &__title {
+      width: 240px;
+    }
+
+    &__title-box {
+      width: 230px;
+    }
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .card {
+    grid-template-columns: auto;
+
+    &__link {
+      width: 400px;
+    }
+
+    &__box {
+      width: 400px;
+    }
+
+    &__img {
+      width: 400px;
+    }
+
+    &__title {
+      width: 390px;
+    }
+
+    &__title-box {
+      width: 380px;
+    }
+
+    &__title {
+      font-size: 16px;
+      line-height: 16px;
+    }
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .card {
+    &__link {
+      width: 350px;
+    }
+
+    &__box {
+      width: 350px;
+    }
+
+    &__img {
+      width: 350px;
+    }
+
+    &__title {
+      width: 340px;
+    }
+
+    &__title-box {
+      width: 330px;
+    }
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .card {
+    &__link {
+      width: 300px;
+    }
+
+    &__box {
+      width: 300px;
+    }
+
+    &__img {
+      width: 300px;
+    }
+
+    &__title {
+      width: 290px;
+    }
+
+    &__title-box {
+      width: 280px;
+    }
+
+    &__title {
+      font-size: 12px;
+      line-height: 12px;
+    }
+  }
+}
